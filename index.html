@@ -1,27 +1,45 @@
-<script>
-fetch('data/contenido.json')
-  .then(res => res.json())
-  .then(data => {
-    const contenedor = document.getElementById('contenedor-articulos');
-    if (!data.articulos || data.articulos.length === 0) {
-      contenedor.innerHTML = "<p>No se encontró contenido actualizado</p>";
-      return;
-    }
-    data.articulos.forEach(art => {
-      const bloque = document.createElement('div');
-      bloque.innerHTML = `
-        <h2>${art.titulo}</h2>
-        <img src="${art.imagen}" alt="${art.titulo}" style="max-width:100%; margin-bottom:10px;">
-        <p><strong>${art.categoria}</strong> | ${art.fecha}</p>
-        <p>${art.resumen}</p>
-        <p><em>${art.fuente}</em></p>
-        <hr>
-      `;
-      contenedor.appendChild(bloque);
-    });
-  })
-  .catch(error => {
-    console.error('Error al cargar contenido:', error);
-    document.getElementById('contenedor-articulos').innerHTML = "<p>Error al cargar contenido.</p>";
-  });
-</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>IA360</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+    .articulo { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+    .articulo img { max-width: 100%; margin-bottom: 10px; border-radius: 4px; }
+    .articulo h2 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <h1>Últimos artículos de IA360</h1>
+  <div id="contenedor-articulos"></div>
+
+  <script>
+    fetch('data/contenido.json')
+      .then(res => res.json())
+      .then(data => {
+        const contenedor = document.getElementById('contenedor-articulos');
+        if (!data.articulos || data.articulos.length === 0) {
+          contenedor.innerHTML = "<p>No se encontró contenido actualizado.</p>";
+          return;
+        }
+        data.articulos.forEach(art => {
+          const bloque = document.createElement('div');
+          bloque.className = "articulo";
+          bloque.innerHTML = `
+            <h2>${art.titulo}</h2>
+            <img src="${art.imagen}" alt="${art.titulo}">
+            <p><strong>${art.categoria}</strong> | ${art.fecha}</p>
+            <p>${art.resumen}</p>
+            <p><em>${art.fuente}</em></p>
+          `;
+          contenedor.appendChild(bloque);
+        });
+      })
+      .catch(error => {
+        console.error('Error al cargar contenido:', error);
+        document.getElementById('contenedor-articulos').innerHTML = "<p>Error al cargar contenido.</p>";
+      });
+  </script>
+</body>
+</html>

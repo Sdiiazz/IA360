@@ -1,0 +1,35 @@
+{
+  "fecha_actualizacion": "2025-10-15T15:35:00Z",
+  "articulos": [
+    {
+      "id": "1",
+      "titulo": "Noticia de IA 1",
+      "categoria": "Noticias",
+      "fecha": "2025-10-01",
+      "resumen": "Resumen de la noticia 1 sobre inteligencia artificial.",
+      "contenido": "Contenido completo de la noticia 1.",
+      "imagen": "https://example.com/imagen1.jpg",
+      "fuente": "Fuente Ejemplo"
+    },
+    {
+      "id": "3",
+      "titulo": "Noticia de IA 3",
+      "categoria": "Noticias",
+      "fecha": "2025-10-03",
+      "resumen": "Resumen de la noticia 3 sobre inteligencia artificial.",
+      "contenido": "Contenido completo de la noticia 3.",
+      "imagen": "https://example.com/imagen3.jpg",
+      "fuente": "Fuente Ejemplo"
+    },
+    {
+      "id": "5",
+      "titulo": "Noticia de IA 5",
+      "categoria": "Noticias",
+      "fecha": "2025-10-05",
+      "resumen": "Resumen de la noticia 5 sobre inteligencia artificial.",
+      "contenido": "Contenido completo de la noticia 5.",
+      "imagen": "https://example.com/imagen5.jpg",
+      "fuente": "Fuente Ejemplo"
+    }
+  ]
+}

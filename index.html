@@ -1,2 +1,25 @@
-=<p>Sin datos para hoy</p> <p>No se encontró contenido actualizado</p> <p>Verifica tu hoja de cálculo</p> <a href="https://ia360.ai">Explorar herramienta</a>
-=<p>Sin datos para hoy</p> <p>No se encontró contenido actualizado</p> <p>Verifica tu hoja de cálculo</p> <a href="https://ia360.ai">Explorar herramienta</a>
+<div id="contenedor-articulos"></div>
+
+<script>
+fetch('/data/contenido.json')
+  .then(res => res.json())
+  .then(data => {
+    const contenedor = document.getElementById('contenedor-articulos');
+    data.articulos.forEach(art => {
+      const bloque = document.createElement('div');
+      bloque.innerHTML = `
+        <h2>${art.titulo}</h2>
+        <img src="${art.imagen}" alt="${art.titulo}" style="max-width:100%; margin-bottom:10px;">
+        <p><strong>${art.categoria}</strong> | ${art.fecha}</p>
+        <p>${art.resumen}</p>
+        <p><em>${art.fuente}</em></p>
+        <hr>
+      `;
+      contenedor.appendChild(bloque);
+    });
+  })
+  .catch(error => {
+    console.error('Error al cargar contenido:', error);
+    document.getElementById('contenedor-articulos').innerHTML = "<p>No se pudo cargar el contenido.</p>";
+  });
+</script>

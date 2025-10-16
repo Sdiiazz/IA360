@@ -7,7 +7,7 @@
       "categoria": "Salud",
       "fecha": "2025-10-01",
       "resumen": "Investigadores desarrollan un sistema de IA que ayuda a diagnosticar enfermedades raras.",
-      "contenido": "Contenido completo de la noticia 1.",
+      "contenido": "Un equipo de investigadores ha desarrollado una innovadora inteligencia artificial capaz de identificar enfermedades raras con mayor precisión. Este avance promete mejorar los diagnósticos médicos en casos complejos y acelerar el tratamiento de pacientes.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+1",
       "fuente": "Fuente Ejemplo"
     },
@@ -17,7 +17,7 @@
       "categoria": "Tecnología",
       "fecha": "2025-10-02",
       "resumen": "Nuevas herramientas de IA permiten crear diseños profesionales en segundos.",
-      "contenido": "Contenido completo de la noticia 2.",
+      "contenido": "La inteligencia artificial generativa está transformando el mundo del diseño gráfico. Herramientas emergentes permiten a profesionales y aficionados crear piezas visuales de alta calidad en cuestión de segundos, reduciendo tiempos y costos.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+2",
       "fuente": "Fuente Ejemplo"
     },
@@ -27,7 +27,7 @@
       "categoria": "Industria",
       "fecha": "2025-10-03",
       "resumen": "Los robots con IA mejoran la eficiencia en fábricas de todo el mundo.",
-      "contenido": "Contenido completo de la noticia 3.",
+      "contenido": "Las fábricas están adoptando robots equipados con inteligencia artificial para optimizar procesos productivos. Estos sistemas inteligentes no solo aumentan la eficiencia, sino que también reducen errores y mejoran la seguridad laboral.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+3",
       "fuente": "Fuente Ejemplo"
     },
@@ -37,7 +37,7 @@
       "categoria": "Finanzas",
       "fecha": "2025-10-04",
       "resumen": "Bancos utilizan sistemas de IA para prevenir fraudes y proteger a los clientes.",
-      "contenido": "Contenido completo de la noticia 4.",
+      "contenido": "Entidades bancarias están implementando sistemas de inteligencia artificial para detectar patrones sospechosos y prevenir fraudes financieros. Esta tecnología mejora la seguridad de los usuarios y fortalece la confianza en el sistema.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+4",
       "fuente": "Fuente Ejemplo"
     },
@@ -47,7 +47,7 @@
       "categoria": "Tecnología",
       "fecha": "2025-10-05",
       "resumen": "Los últimos asistentes de IA comprenden emociones y responden de forma natural.",
-      "contenido": "Contenido completo de la noticia 5.",
+      "contenido": "Los asistentes virtuales han evolucionado para interpretar emociones humanas mediante voz y texto. Gracias a modelos avanzados de IA, ahora ofrecen respuestas más empáticas y naturales, mejorando la interacción con los usuarios.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+5",
       "fuente": "Fuente Ejemplo"
     },
@@ -57,7 +57,7 @@
       "categoria": "Ciencia",
       "fecha": "2025-10-06",
       "resumen": "Nuevos modelos de IA permiten pronósticos meteorológicos más precisos.",
-      "contenido": "Contenido completo de la noticia 6.",
+      "contenido": "Meteorólogos están utilizando inteligencia artificial para mejorar la precisión de los pronósticos del tiempo. Los nuevos modelos analizan grandes volúmenes de datos en tiempo real, anticipando fenómenos climáticos con mayor exactitud.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+6",
       "fuente": "Fuente Ejemplo"
     },
@@ -67,7 +67,7 @@
       "categoria": "Transporte",
       "fecha": "2025-10-07",
       "resumen": "Pruebas de coches autónomos muestran mejoras en seguridad y eficiencia.",
-      "contenido": "Contenido completo de la noticia 7.",
+      "contenido": "Europa intensifica las pruebas de vehículos autónomos, demostrando avances significativos en seguridad vial y eficiencia energética. Las autoridades evalúan su integración en el transporte urbano en los próximos años.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+7",
       "fuente": "Fuente Ejemplo"
     },
@@ -77,7 +77,7 @@
       "categoria": "Ciencia",
       "fecha": "2025-10-08",
       "resumen": "Algoritmos analizan datos sísmicos para anticipar posibles terremotos.",
-      "contenido": "Contenido completo de la noticia 8.",
+      "contenido": "Científicos han desarrollado algoritmos de inteligencia artificial que analizan patrones sísmicos para anticipar terremotos. Aunque no reemplazan los sistemas tradicionales, ofrecen una herramienta complementaria de gran valor.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+8",
       "fuente": "Fuente Ejemplo"
     },
@@ -87,7 +87,7 @@
       "categoria": "Educación",
       "fecha": "2025-10-09",
       "resumen": "Plataformas educativas integran chatbots inteligentes para tutorías personalizadas.",
-      "contenido": "Contenido completo de la noticia 9.",
+      "contenido": "Las plataformas de aprendizaje están incorporando chatbots con IA que ofrecen tutorías personalizadas. Estos asistentes responden dudas, adaptan contenidos y mejoran la experiencia educativa de los estudiantes.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+9",
       "fuente": "Fuente Ejemplo"
     },
@@ -97,7 +97,7 @@
       "categoria": "Cultura",
       "fecha": "2025-10-10",
       "resumen": "Nuevas herramientas permiten catalogar y analizar obras de arte automáticamente.",
-      "contenido": "Contenido completo de la noticia 10.",
+      "contenido": "Museos y centros culturales están utilizando IA para catalogar y analizar obras de arte. Esta tecnología facilita la conservación, el estudio y la difusión del patrimonio cultural.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+10",
       "fuente": "Fuente Ejemplo"
     },
@@ -107,7 +107,7 @@
       "categoria": "Entretenimiento",
       "fecha": "2025-10-11",
       "resumen": "Los juegos usan IA para crear enemigos y mundos más realistas y dinámicos.",
-      "contenido": "Contenido completo de la noticia 11.",
+      "contenido": "La industria del videojuego incorpora IA para generar entornos dinámicos y personajes con comportamientos realistas. Esta evolución redefine la experiencia de juego y abre nuevas posibilidades narrativas.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+11",
       "fuente": "Fuente Ejemplo"
     },
@@ -117,7 +117,7 @@
       "categoria": "Agricultura",
       "fecha": "2025-10-12",
       "resumen": "Sensores y algoritmos ayudan a optimizar cultivos y reducir el uso de agua.",
-      "contenido": "Contenido completo de la noticia 12.",
+      "contenido": "La agricultura de precisión se beneficia de sensores inteligentes y algoritmos que analizan el estado de los cultivos. Esto permite optimizar recursos, reducir el uso de agua y aumentar la productividad.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+12",
       "fuente": "Fuente Ejemplo"
     },
@@ -127,7 +127,7 @@
       "categoria": "Seguridad",
       "fecha": "2025-10-13",
       "resumen": "Expertos analizan cómo proteger datos personales mientras se usa IA.",
-      "contenido": "Contenido completo de la noticia 13.",
+      "contenido": "Con el auge de la inteligencia artificial, expertos advierten sobre los riesgos en la protección de datos personales. Se plantean nuevas regulaciones para garantizar la privacidad en entornos digitales.",
       "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+13",
       "fuente": "Fuente Ejemplo"
     },
@@ -137,170 +137,167 @@
       "categoria": "Finanzas",
       "fecha": "2025-10-14",
       "resumen": "Algoritmos financieros anticipan movimientos bursátiles y preferencias del consumidor.",
-      "contenido": "Contenido completo de la noticia 14.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+14",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "15",
-      "titulo": "IA y transporte público inteligente",
-      "categoria": "Transporte",
-      "fecha": "2025-10-15",
-      "resumen": "Sistemas de IA optimizan rutas y horarios de transporte urbano.",
-      "contenido": "Contenido completo de la noticia 15.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+15",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "16",
-      "titulo": "IA detecta emociones humanas",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-16",
-      "resumen": "Nuevas IA pueden reconocer emociones a partir de expresiones faciales y voz.",
-      "contenido": "Contenido completo de la noticia 16.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+16",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "17",
-      "titulo": "IA y energía renovable",
-      "categoria": "Ciencia",
-      "fecha": "2025-10-17",
-      "resumen": "Sistemas de IA optimizan el consumo y producción de energía solar y eólica.",
-      "contenido": "Contenido completo de la noticia 17.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+17",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "18",
-      "titulo": "IA en transporte marítimo",
-      "categoria": "Transporte",
-      "fecha": "2025-10-18",
-      "resumen": "Algoritmos inteligentes ayudan a mejorar la eficiencia de rutas navieras.",
-      "contenido": "Contenido completo de la noticia 18.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+18",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "19",
-      "titulo": "IA y análisis deportivo",
-      "categoria": "Deportes",
-      "fecha": "2025-10-19",
-      "resumen": "Se usan datos y IA para mejorar el rendimiento de atletas y equipos.",
-      "contenido": "Contenido completo de la noticia 19.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+19",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "20",
-      "titulo": "IA en seguridad vial",
-      "categoria": "Seguridad",
-      "fecha": "2025-10-20",
-      "resumen": "Sistemas de IA ayudan a prevenir accidentes y mejorar la señalización.",
-      "contenido": "Contenido completo de la noticia 20.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+20",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "21",
-      "titulo": "IA y traducción automática",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-21",
-      "resumen": "Nuevas IA ofrecen traducciones más precisas y naturales entre idiomas.",
-      "contenido": "Contenido completo de la noticia 21.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+21",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "22",
-      "titulo": "IA analiza redes sociales",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-22",
-      "resumen": "Herramientas de IA detectan tendencias y patrones de comportamiento en línea.",
-      "contenido": "Contenido completo de la noticia 22.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+22",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "23",
-      "titulo": "IA en la industria musical",
-      "categoria": "Entretenimiento",
-      "fecha": "2025-10-23",
-      "resumen": "Algoritmos generan melodías y ayudan a componer canciones innovadoras.",
-      "contenido": "Contenido completo de la noticia 23.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+23",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "24",
-      "titulo": "IA y cine: efectos visuales",
-      "categoria": "Cultura",
-      "fecha": "2025-10-24",
-      "resumen": "Se utiliza IA para mejorar y acelerar la creación de efectos especiales en películas.",
-      "contenido": "Contenido completo de la noticia 24.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+24",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "25",
-      "titulo": "IA en logística y entregas",
-      "categoria": "Industria",
-      "fecha": "2025-10-25",
-      "resumen": "Sistemas inteligentes optimizan rutas y tiempos de entrega.",
-      "contenido": "Contenido completo de la noticia 25.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+25",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "26",
-      "titulo": "IA y reconocimiento facial",
-      "categoria": "Seguridad",
-      "fecha": "2025-10-26",
-      "resumen": "Nuevas tecnologías permiten identificar personas de forma rápida y segura.",
-      "contenido": "Contenido completo de la noticia 26.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+26",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "27",
-      "titulo": "IA y arte digital",
-      "categoria": "Cultura",
-      "fecha": "2025-10-27",
-      "resumen": "Artistas usan IA para crear obras únicas y experimentar con estilos nuevos.",
-      "contenido": "Contenido completo de la noticia 27.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+27",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "28",
-      "titulo": "IA en atención al cliente",
-      "categoria": "Negocios",
-      "fecha": "2025-10-28",
-      "resumen": "Chatbots avanzados mejoran la experiencia de los clientes y reducen tiempos de espera.",
-      "contenido": "Contenido completo de la noticia 28.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+28",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "29",
-      "titulo": "IA en educación personalizada",
-      "categoria": "Educación",
-      "fecha": "2025-10-29",
-      "resumen": "Plataformas educativas adaptan contenido al nivel y ritmo de cada estudiante.",
-      "contenido": "Contenido completo de la noticia 29.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+29",
-      "fuente": "Fuente Ejemplo"
-    },
-    {
-      "id": "30",
-      "titulo": "IA y smart cities",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-30",
-      "resumen": "Ciudades inteligentes usan IA para gestionar tráfico, energía y servicios urbanos.",
-      "contenido": "Contenido completo de la noticia 30.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+30",
-      "fuente": "Fuente Ejemplo"
-    }
-  ]
+      "contenido": "Firmas financieras están adoptando IA para analizar grandes volúmenes de datos y anticipar tendencias de mercado. Esta tecnología mejora la toma de decisiones y reduce riesgos en inversiones.",
+      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+14"
+      {,
+      {
+  "id": "15",
+  "titulo": "IA y transporte público inteligente",
+  "categoria": "Transporte",
+  "fecha": "2025-10-15",
+  "resumen": "Sistemas de IA optimizan rutas y horarios de transporte urbano.",
+  "contenido": "Las ciudades están adoptando sistemas de inteligencia artificial para mejorar la eficiencia del transporte público. Algoritmos analizan patrones de movilidad y ajustan rutas y horarios en tiempo real, reduciendo esperas y mejorando la experiencia del usuario.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+15",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "16",
+  "titulo": "IA detecta emociones humanas",
+  "categoria": "Tecnología",
+  "fecha": "2025-10-16",
+  "resumen": "Nuevas IA pueden reconocer emociones a partir de expresiones faciales y voz.",
+  "contenido": "Investigadores han desarrollado modelos de IA capaces de interpretar emociones humanas mediante análisis facial y tono de voz. Esta tecnología abre nuevas posibilidades en salud mental, atención al cliente y educación emocional.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+16",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "17",
+  "titulo": "IA y energía renovable",
+  "categoria": "Ciencia",
+  "fecha": "2025-10-17",
+  "resumen": "Sistemas de IA optimizan el consumo y producción de energía solar y eólica.",
+  "contenido": "La inteligencia artificial está transformando el sector energético al mejorar la gestión de fuentes renovables. Algoritmos predicen demanda, ajustan producción y reducen desperdicios, impulsando un futuro más sostenible.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+17",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "18",
+  "titulo": "IA en transporte marítimo",
+  "categoria": "Transporte",
+  "fecha": "2025-10-18",
+  "resumen": "Algoritmos inteligentes ayudan a mejorar la eficiencia de rutas navieras.",
+  "contenido": "Empresas navieras están utilizando IA para optimizar rutas marítimas, reducir consumo de combustible y evitar congestiones portuarias. Esta innovación mejora la logística global y reduce el impacto ambiental.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+18",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "19",
+  "titulo": "IA y análisis deportivo",
+  "categoria": "Deportes",
+  "fecha": "2025-10-19",
+  "resumen": "Se usan datos y IA para mejorar el rendimiento de atletas y equipos.",
+  "contenido": "El deporte profesional incorpora IA para analizar el rendimiento de atletas, prevenir lesiones y diseñar estrategias. Los entrenadores cuentan con herramientas predictivas que transforman la preparación física.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+19",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "20",
+  "titulo": "IA en seguridad vial",
+  "categoria": "Seguridad",
+  "fecha": "2025-10-20",
+  "resumen": "Sistemas de IA ayudan a prevenir accidentes y mejorar la señalización.",
+  "contenido": "La IA se aplica en seguridad vial para detectar riesgos, controlar semáforos inteligentes y alertar sobre comportamientos peligrosos. Estas soluciones buscan reducir accidentes y salvar vidas.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+20",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "21",
+  "titulo": "IA y traducción automática",
+  "categoria": "Tecnología",
+  "fecha": "2025-10-21",
+  "resumen": "Nuevas IA ofrecen traducciones más precisas y naturales entre idiomas.",
+  "contenido": "Los sistemas de traducción automática han alcanzado nuevos niveles de precisión gracias a la IA. Las plataformas ahora interpretan contexto, tono y expresiones idiomáticas, facilitando la comunicación global.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+21",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "22",
+  "titulo": "IA analiza redes sociales",
+  "categoria": "Tecnología",
+  "fecha": "2025-10-22",
+  "resumen": "Herramientas de IA detectan tendencias y patrones de comportamiento en línea.",
+  "contenido": "Empresas y analistas utilizan IA para estudiar redes sociales, identificar tendencias emergentes y comprender el comportamiento digital. Esta información es clave para marketing, política y salud pública.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+22",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "23",
+  "titulo": "IA en la industria musical",
+  "categoria": "Entretenimiento",
+  "fecha": "2025-10-23",
+  "resumen": "Algoritmos generan melodías y ayudan a componer canciones innovadoras.",
+  "contenido": "La música se reinventa con IA que compone melodías, armoniza voces y sugiere arreglos. Artistas colaboran con algoritmos para explorar nuevos estilos y expandir la creatividad.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+23",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "24",
+  "titulo": "IA y cine: efectos visuales",
+  "categoria": "Cultura",
+  "fecha": "2025-10-24",
+  "resumen": "Se utiliza IA para mejorar y acelerar la creación de efectos especiales en películas.",
+  "contenido": "La industria cinematográfica adopta IA para generar efectos visuales más realistas y reducir tiempos de producción. Esta tecnología permite crear mundos digitales con mayor eficiencia.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+24",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "25",
+  "titulo": "IA en logística y entregas",
+  "categoria": "Industria",
+  "fecha": "2025-10-25",
+  "resumen": "Sistemas inteligentes optimizan rutas y tiempos de entrega.",
+  "contenido": "Empresas de logística implementan IA para planificar rutas, prever tráfico y ajustar entregas en tiempo real. Esto mejora la puntualidad y reduce costos operativos.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+25",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "26",
+  "titulo": "IA y reconocimiento facial",
+  "categoria": "Seguridad",
+  "fecha": "2025-10-26",
+  "resumen": "Nuevas tecnologías permiten identificar personas de forma rápida y segura.",
+  "contenido": "El reconocimiento facial impulsado por IA se utiliza en aeropuertos, eventos y sistemas de seguridad. Aunque plantea debates éticos, su precisión y velocidad son cada vez mayores.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+26",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "27",
+  "titulo": "IA y arte digital",
+  "categoria": "Cultura",
+  "fecha": "2025-10-27",
+  "resumen": "Artistas usan IA para crear obras únicas y experimentar con estilos nuevos.",
+  "contenido": "El arte digital vive una revolución con IA que genera imágenes, interpreta estilos y colabora en procesos creativos. Los artistas exploran nuevas formas de expresión híbrida.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+27",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "28",
+  "titulo": "IA en atención al cliente",
+  "categoria": "Negocios",
+  "fecha": "2025-10-28",
+  "resumen": "Chatbots avanzados mejoran la experiencia de los clientes y reducen tiempos de espera.",
+  "contenido": "Las empresas adoptan asistentes virtuales con IA que resuelven consultas, gestionan pedidos y ofrecen soporte personalizado. Esto mejora la satisfacción del cliente y optimiza recursos.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+28",
+  "fuente": "Fuente Ejemplo"
+},
+{
+  "id": "29",
+  "titulo": "IA en educación personalizada",
+  "categoria": "Educación",
+  "fecha": "2025-10-29",
+  "resumen": "Plataformas educativas adaptan contenido al nivel y ritmo de cada estudiante.",
+  "contenido": "La educación personalizada se potencia con IA que analiza el progreso de cada alumno y adapta los contenidos. Esto permite un aprendizaje más eficaz y motivador.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+28",
+  },
+  {
+  "id": "30",
+  "titulo": "IA y smart cities",
+  "categoria": "Tecnología",
+  "fecha": "2025-10-30",
+  "resumen": "Ciudades inteligentes usan IA para gestionar tráfico, energía y servicios urbanos.",
+  "contenido": "Las ciudades inteligentes están adoptando inteligencia artificial para gestionar recursos urbanos de forma eficiente. Desde el control del tráfico hasta la distribución energética, los algoritmos permiten una administración más sostenible, segura y conectada.",
+  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+30",
+  "fuente": "Fuente Ejemplo"
+  }
+ ] 
 }
-

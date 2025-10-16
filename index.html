@@ -59,8 +59,11 @@
   <div class="grid" id="contenedor-articulos"></div>
 
   <script>
-    fetch('data/contenido.json')
-      .then(res => res.json())
+    fetch('./data/contenido.json') // <- añade ./ para asegurar la ruta relativa
+      .then(res => {
+        if (!res.ok) throw new Error('No se pudo cargar el JSON');
+        return res.json();
+      })
       .then(data => {
         const contenedor = document.getElementById('contenedor-articulos');
         if (!data.articulos || data.articulos.length === 0) {
@@ -71,12 +74,12 @@
           const tarjeta = document.createElement('div');
           tarjeta.className = "card";
           tarjeta.innerHTML = `
-            <img src="${art.imagen}" alt="${art.titulo}">
+            <img src="${art.imagen || 'https://via.placeholder.com/400x200.png?text=Sin+imagen'}" alt="${art.titulo}">
             <div class="card-content">
-              <h2>${art.titulo}</h2>
-              <p class="meta">${art.categoria} | ${art.fecha}</p>
-              <p>${art.resumen}</p>
-              <p><em>${art.fuente}</em></p>
+              <h2>${art.titulo || 'Sin título'}</h2>
+              <p class="meta">${art.categoria || ''} | ${art.fecha || ''}</p>
+              <p>${art.resumen || ''}</p>
+              <p><em>${art.fuente || ''}</em></p>
             </div>
           `;
           contenedor.appendChild(tarjeta);

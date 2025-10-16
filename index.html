@@ -59,7 +59,11 @@
   <div class="grid" id="contenedor-articulos"></div>
 
   <script>
-    // URL absoluta de tu JSON en GitHub Pages
+    function convertirFechaExcel(numero) {
+      const fecha = new Date((Number(numero) - 25569) * 86400 * 1000);
+      return fecha.toISOString().split('T')[0];
+    }
+
     fetch('https://sdiiazz.github.io/IA360/data/contenido.json')
       .then(res => {
         if (!res.ok) throw new Error('No se pudo cargar el JSON');
@@ -71,15 +75,17 @@
           contenedor.innerHTML = "<p>No se encontró contenido actualizado.</p>";
           return;
         }
+
         data.articulos.forEach(art => {
+          const fechaFormateada = isNaN(art.fecha) ? art.fecha : convertirFechaExcel(art.fecha);
           const tarjeta = document.createElement('div');
           tarjeta.className = "card";
           tarjeta.innerHTML = `
             <img src="${art.imagen || 'https://via.placeholder.com/400x200.png?text=Sin+imagen'}" alt="${art.titulo}">
             <div class="card-content">
               <h2>${art.titulo || 'Sin título'}</h2>
-              <p class="meta">${art.categoria || ''} | ${art.fecha || ''}</p>
-              <p>${art.resumen || ''}</p>
+              <p class="meta">${art.categoria || ''} | ${fechaFormateada || ''}</p>
+              <p>${art.contenido || art.resumen || ''}</p>
               <p><em>${art.fuente || ''}</em></p>
             </div>
           `;

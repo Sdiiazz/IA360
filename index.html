@@ -59,7 +59,8 @@
   <div class="grid" id="contenedor-articulos"></div>
 
   <script>
-    fetch('./data/contenido.json') // <- añade ./ para asegurar la ruta relativa
+    // URL absoluta de tu JSON en GitHub Pages
+    fetch('https://sdiiazz.github.io/IA360/data/contenido.json')
       .then(res => {
         if (!res.ok) throw new Error('No se pudo cargar el JSON');
         return res.json();
@@ -92,3 +93,4 @@
   </script>
 </body>
 </html>
+

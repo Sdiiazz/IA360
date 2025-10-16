@@ -1,303 +1,305 @@
 {
-  "fecha_actualizacion": "2025-10-16T12:00:00Z",
+  "fecha_actualizacion": "2025-10-16T22:35:00Z",
   "articulos": [
     {
       "id": "1",
-      "titulo": "Avances en IA para medicina",
-      "categoria": "Salud",
-      "fecha": "2025-10-01",
-      "resumen": "Investigadores desarrollan un sistema de IA que ayuda a diagnosticar enfermedades raras.",
-      "contenido": "Un equipo de investigadores ha desarrollado una innovadora inteligencia artificial capaz de identificar enfermedades raras con mayor precisión. Este avance promete mejorar los diagnósticos médicos en casos complejos y acelerar el tratamiento de pacientes.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+1",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Bruselas adjudica a España una segunda factoría de IA con una inversión de 82 millones",
+      "categoria": "Economía",
+      "fecha": "2025-10-10",
+      "resumen": "España recibirá una nueva instalación dedicada a la inteligencia artificial con apoyo europeo.",
+      "contenido": "La Comisión Europea ha confirmado la adjudicación de una segunda factoría de inteligencia artificial en España, con una inversión de 82 millones de euros. Esta iniciativa busca posicionar al país como líder en innovación tecnológica dentro del continente.",
+      "imagen": "https://elpais.com/economia/2025-10-10/bruselas-adjudica-a-espana-una-segunda-factoria-de-ia-con-una-inversion-de-82-millones.html",
+      "fuente": "El País"
     },
     {
       "id": "2",
-      "titulo": "IA generativa revoluciona el diseño gráfico",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-02",
-      "resumen": "Nuevas herramientas de IA permiten crear diseños profesionales en segundos.",
-      "contenido": "La inteligencia artificial generativa está transformando el mundo del diseño gráfico. Herramientas emergentes permiten a profesionales y aficionados crear piezas visuales de alta calidad en cuestión de segundos, reduciendo tiempos y costos.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+2",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "El Instituto de Salud Carlos III estará presente por primera vez en Albacete",
+      "categoria": "Salud",
+      "fecha": "2025-10-16",
+      "resumen": "La institución participará en un evento regional sobre innovación médica.",
+      "contenido": "El Instituto de Salud Carlos III se suma por primera vez a las jornadas de salud organizadas en Albacete. Su presencia marca un hito en la descentralización de la investigación médica en España.",
+      "imagen": "https://www.eldigitaldealbacete.com/2024/12/03/castilla-la-mancha-consigue-la-concesion-de-la-primera-unidad-de-investigacion-clinica-por-parte-del-instituto-de-salud-carlos-iii/",
+      "fuente": "Cadena SER"
     },
     {
       "id": "3",
-      "titulo": "Robots inteligentes en la industria",
-      "categoria": "Industria",
-      "fecha": "2025-10-03",
-      "resumen": "Los robots con IA mejoran la eficiencia en fábricas de todo el mundo.",
-      "contenido": "Las fábricas están adoptando robots equipados con inteligencia artificial para optimizar procesos productivos. Estos sistemas inteligentes no solo aumentan la eficiencia, sino que también reducen errores y mejoran la seguridad laboral.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+3",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Vitoria acoge aula abierta sobre desinformación generada por IA",
+      "categoria": "Salud",
+      "fecha": "2025-10-16",
+      "resumen": "Expertos debaten sobre los riesgos de la inteligencia artificial en la salud pública.",
+      "contenido": "La ciudad de Vitoria ha sido sede de una nueva edición de aula abierta centrada en la lucha contra la desinformación generada por sistemas de inteligencia artificial. El evento reunió a profesionales de la medicina, tecnología y comunicación.",
+      "imagen": "https://www.gasteizhoy.com/eventos/inteligencia-artificial-desinformacion-y-brecha-de-genero/",
+      "fuente": "Cadena SER"
     },
     {
       "id": "4",
-      "titulo": "IA detecta fraudes financieros",
-      "categoria": "Finanzas",
-      "fecha": "2025-10-04",
-      "resumen": "Bancos utilizan sistemas de IA para prevenir fraudes y proteger a los clientes.",
-      "contenido": "Entidades bancarias están implementando sistemas de inteligencia artificial para detectar patrones sospechosos y prevenir fraudes financieros. Esta tecnología mejora la seguridad de los usuarios y fortalece la confianza en el sistema.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+4",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Alcoy acoge el III Congreso de Ciudades Inteligentes y Big Data",
+      "categoria": "Salud",
+      "fecha": "2025-10-14",
+      "resumen": "El evento reúne a expertos en IA, urbanismo y sostenibilidad.",
+      "contenido": "El euro digital y el impacto de la inteligencia artificial fueron los ejes del III Congreso de Ciudades Inteligentes celebrado en Alcoy. La cita contó con la participación de investigadores, urbanistas y representantes institucionales.",
+      "imagen": "https://www.elperiodic.com/alcoi/congreso-ciudades-inteligentes-data-reune-alcoy-expertos-para-debatir-sobre-futuro-ciudades_1040389",
+      "fuente": "Cadena SER"
     },
     {
       "id": "5",
-      "titulo": "Asistentes virtuales más humanos",
-      "categoria": "Tecnología",
-      "fecha": "2025-10-05",
-      "resumen": "Los últimos asistentes de IA comprenden emociones y responden de forma natural.",
-      "contenido": "Los asistentes virtuales han evolucionado para interpretar emociones humanas mediante voz y texto. Gracias a modelos avanzados de IA, ahora ofrecen respuestas más empáticas y naturales, mejorando la interacción con los usuarios.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+5",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "El 40% de los sanitarios aseguran que usan IA en su trabajo",
+      "categoria": "Salud",
+      "fecha": "2025-10-16",
+      "resumen": "Un estudio revela el creciente uso de inteligencia artificial en el ámbito sanitario.",
+      "contenido": "Según un estudio reciente, el 40% de los profesionales sanitarios en España ya utilizan herramientas de inteligencia artificial en su práctica diaria. El informe destaca el potencial de estas tecnologías para mejorar diagnósticos y optimizar recursos.",
+      "imagen": "https://diariofarma.com/2025/10/16/el-40-de-los-sanitarios-aseguran-que-usan-la-ia-en-su-trabajo-segun-un-estudio",
+      "fuente": "Diario Farma"
     },
     {
       "id": "6",
-      "titulo": "IA mejora predicciones del clima",
-      "categoria": "Ciencia",
-      "fecha": "2025-10-06",
-      "resumen": "Nuevos modelos de IA permiten pronósticos meteorológicos más precisos.",
-      "contenido": "Meteorólogos están utilizando inteligencia artificial para mejorar la precisión de los pronósticos del tiempo. Los nuevos modelos analizan grandes volúmenes de datos en tiempo real, anticipando fenómenos climáticos con mayor exactitud.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+6",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Un experto de Harvard anticipa la nueva era de la medicina",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "El futuro de los ensayos clínicos será virtual, según Michael Gibson.",
+      "contenido": "Durante el PreCongreso ICBA 2025 en Buenos Aires, el cardiólogo Michael Gibson expuso cómo la inteligencia artificial y la gestión digital de datos impulsarán transformaciones profundas en la investigación médica cardiovascular y el acceso a nuevos tratamientos.",
+      "imagen": "https://www.infobae.com/salud/2025/10/15/un-experto-de-harvard-anticipo-la-nueva-era-de-la-medicina-el-futuro-de-los-ensayos-clinicos-sera-virtual/",
+      "fuente": "Infobae"
     },
     {
       "id": "7",
-      "titulo": "Vehículos autónomos avanzan en Europa",
-      "categoria": "Transporte",
-      "fecha": "2025-10-07",
-      "resumen": "Pruebas de coches autónomos muestran mejoras en seguridad y eficiencia.",
-      "contenido": "Europa intensifica las pruebas de vehículos autónomos, demostrando avances significativos en seguridad vial y eficiencia energética. Las autoridades evalúan su integración en el transporte urbano en los próximos años.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+7",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Cómo Oracle está revolucionando la medicina con IA",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "Oracle lanza herramientas de IA generativa para mejorar la atención médica.",
+      "contenido": "Oracle ha presentado nuevas capacidades de inteligencia artificial generativa integradas en sus sistemas de salud. Estas herramientas permiten a los médicos centrarse más en el paciente, automatizar tareas y mejorar la eficiencia clínica.",
+      "imagen": "https://www.oracle.com/mx/news/announcement/ohc-oracle-brings-generative-ai-capabilities-to-healthcare-2023-09-18/",
+      "fuente": "Fast Company MX"
     },
     {
       "id": "8",
-      "titulo": "IA ayuda a predecir terremotos",
-      "categoria": "Ciencia",
-      "fecha": "2025-10-08",
-      "resumen": "Algoritmos analizan datos sísmicos para anticipar posibles terremotos.",
-      "contenido": "Científicos han desarrollado algoritmos de inteligencia artificial que analizan patrones sísmicos para anticipar terremotos. Aunque no reemplazan los sistemas tradicionales, ofrecen una herramienta complementaria de gran valor.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+8",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Datos que salvan vidas: el poder de la IA en la salud",
+      "categoria": "Salud",
+      "fecha": "2025-10-14",
+      "resumen": "Valencia acoge una jornada sobre IA aplicada a la medicina personalizada.",
+      "contenido": "El Colegio de Médicos de Valencia ha acogido la jornada 'Datos que salvan vidas', donde expertos analizaron el impacto de la inteligencia artificial en diagnóstico médico, neurorehabilitación, imagen biomédica y salud mental.",
+      "imagen": "https://valgrai.eu/2025/10/14/datos-que-salvan-vidas-el-poder-de-la-ia-en-la-salud-reune-a-expertos-en-inteligencia-artificial-y-medicina-en-el-colegio-de-medicos-de-valencia/",
+      "fuente": "Interdiario"
     },
     {
       "id": "9",
-      "titulo": "Chatbots educativos más eficientes",
-      "categoria": "Educación",
-      "fecha": "2025-10-09",
-      "resumen": "Plataformas educativas integran chatbots inteligentes para tutorías personalizadas.",
-      "contenido": "Las plataformas de aprendizaje están incorporando chatbots con IA que ofrecen tutorías personalizadas. Estos asistentes responden dudas, adaptan contenidos y mejoran la experiencia educativa de los estudiantes.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+9",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "La salud digital abre el camino a la medicina del futuro",
+      "categoria": "Salud",
+      "fecha": "2025-10-07",
+      "resumen": "La Fundación Economía y Salud destaca el papel de la IA en la transformación sanitaria.",
+      "contenido": "La Fundación Economía y Salud ha publicado un informe sobre cómo la salud digital está revolucionando la medicina moderna. El documento subraya la importancia de la IA para lograr una atención más sostenible, eficiente y personalizada.",
+      "imagen": "https://www.fundacioneconomiaysalud.org/2025/10/07/la-salud-digital-abre-el-camino-a-la-medicina-del-futuro/",
+      "fuente": "Fundación Economía y Salud"
     },
     {
       "id": "10",
-      "titulo": "IA analiza arte y cultura",
-      "categoria": "Cultura",
-      "fecha": "2025-10-10",
-      "resumen": "Nuevas herramientas permiten catalogar y analizar obras de arte automáticamente.",
-      "contenido": "Museos y centros culturales están utilizando IA para catalogar y analizar obras de arte. Esta tecnología facilita la conservación, el estudio y la difusión del patrimonio cultural.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+10",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Programas de IA te ayudan a interpretar tus resultados de laboratorio",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "Herramientas de IA permiten entender análisis clínicos sin esperar al médico.",
+      "contenido": "Cada vez más pacientes utilizan asistentes de inteligencia artificial para interpretar sus análisis clínicos. Estas herramientas ofrecen explicaciones claras y recomendaciones, reduciendo la ansiedad y mejorando el acceso a la información médica.",
+      "imagen": "https://laredhispana.org/salud/programas-de-inteligencia-artificial-te-ayudan-a-interpretar-tus-resultados-de-laboratorio/",
+      "fuente": "La Red Hispana"
     },
     {
       "id": "11",
-      "titulo": "IA y videojuegos: nuevas experiencias",
-      "categoria": "Entretenimiento",
+      "titulo": "El futuro no es un duelo entre la medicina y la inteligencia artificial",
+      "categoria": "Salud",
       "fecha": "2025-10-11",
-      "resumen": "Los juegos usan IA para crear enemigos y mundos más realistas y dinámicos.",
-      "contenido": "La industria del videojuego incorpora IA para generar entornos dinámicos y personajes con comportamientos realistas. Esta evolución redefine la experiencia de juego y abre nuevas posibilidades narrativas.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+11",
-      "fuente": "Fuente Ejemplo"
+      "resumen": "Expertos destacan la colaboración entre IA y profesionales médicos.",
+      "contenido": "Desde la Universidad de Piura se plantea que la inteligencia artificial no reemplazará a los médicos, sino que potenciará sus capacidades. La clave está en una integración ética y responsable.",
+      "imagen": "https://www.udep.edu.pe/hoy/2025/10/el-futuro-no-es-un-duelo-entre-la-medicina-y-la-inteligencia-artificial/",
+      "fuente": "Universidad de Piura"
     },
     {
       "id": "12",
-      "titulo": "IA en agricultura de precisión",
-      "categoria": "Agricultura",
+      "titulo": "La inteligencia artificial y su salud",
+      "categoria": "Salud",
       "fecha": "2025-10-12",
-      "resumen": "Sensores y algoritmos ayudan a optimizar cultivos y reducir el uso de agua.",
-      "contenido": "La agricultura de precisión se beneficia de sensores inteligentes y algoritmos que analizan el estado de los cultivos. Esto permite optimizar recursos, reducir el uso de agua y aumentar la productividad.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+12",
-      "fuente": "Fuente Ejemplo"
+      "resumen": "El NIH publica recursos sobre IA aplicada a la salud pública.",
+      "contenido": "El Instituto Nacional de Salud de EE. UU. ha lanzado una serie de recursos educativos para informar al público sobre cómo la IA puede mejorar la prevención, diagnóstico y tratamiento de enfermedades.",
+      "imagen": "https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/la-inteligencia-artificial-y-su-salud",
+      "fuente": "NIH"
     },
     {
       "id": "13",
-      "titulo": "IA y privacidad: desafíos actuales",
-      "categoria": "Seguridad",
-      "fecha": "2025-10-13",
-      "resumen": "Expertos analizan cómo proteger datos personales mientras se usa IA.",
-      "contenido": "Con el auge de la inteligencia artificial, expertos advierten sobre los riesgos en la protección de datos personales. Se plantean nuevas regulaciones para garantizar la privacidad en entornos digitales.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+13",
-      "fuente": "Fuente Ejemplo"
+      "titulo": "Chile impulsa la IA en oncología de precisión",
+      "categoria": "Salud",
+      "fecha": "2025-10-14",
+      "resumen": "UDD y U. de Chile lideran un programa tecnológico para tratamientos personalizados.",
+      "contenido": "Las universidades chilenas UDD y U. de Chile han lanzado un programa conjunto para aplicar IA en la oncología de precisión. El objetivo es mejorar la detección y tratamiento del cáncer mediante algoritmos predictivos.",
+      "imagen": "https://medicina.udd.cl/icim/2025/10/14/udd-y-u-de-chile-lideran-programa-tecnologico-para-impulsar-el-uso-de-inteligencia-artificial-en-la-oncologia-de-precision/",
+      "fuente": "UDD"
     },
     {
       "id": "14",
-      "titulo": "IA predice tendencias de mercado",
-      "categoria": "Finanzas",
-      "fecha": "2025-10-14",
-      "resumen": "Algoritmos financieros anticipan movimientos bursátiles y preferencias del consumidor.",
-      "contenido": "Firmas financieras están adoptando IA para analizar grandes volúmenes de datos y anticipar tendencias de mercado. Esta tecnología mejora la toma de decisiones y reduce riesgos en inversiones.",
-      "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+14"
-      {,
-      {
-  "id": "15",
-  "titulo": "IA y transporte público inteligente",
-  "categoria": "Transporte",
-  "fecha": "2025-10-15",
-  "resumen": "Sistemas de IA optimizan rutas y horarios de transporte urbano.",
-  "contenido": "Las ciudades están adoptando sistemas de inteligencia artificial para mejorar la eficiencia del transporte público. Algoritmos analizan patrones de movilidad y ajustan rutas y horarios en tiempo real, reduciendo esperas y mejorando la experiencia del usuario.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+15",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "16",
-  "titulo": "IA detecta emociones humanas",
-  "categoria": "Tecnología",
-  "fecha": "2025-10-16",
-  "resumen": "Nuevas IA pueden reconocer emociones a partir de expresiones faciales y voz.",
-  "contenido": "Investigadores han desarrollado modelos de IA capaces de interpretar emociones humanas mediante análisis facial y tono de voz. Esta tecnología abre nuevas posibilidades en salud mental, atención al cliente y educación emocional.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+16",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "17",
-  "titulo": "IA y energía renovable",
-  "categoria": "Ciencia",
-  "fecha": "2025-10-17",
-  "resumen": "Sistemas de IA optimizan el consumo y producción de energía solar y eólica.",
-  "contenido": "La inteligencia artificial está transformando el sector energético al mejorar la gestión de fuentes renovables. Algoritmos predicen demanda, ajustan producción y reducen desperdicios, impulsando un futuro más sostenible.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+17",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "18",
-  "titulo": "IA en transporte marítimo",
-  "categoria": "Transporte",
-  "fecha": "2025-10-18",
-  "resumen": "Algoritmos inteligentes ayudan a mejorar la eficiencia de rutas navieras.",
-  "contenido": "Empresas navieras están utilizando IA para optimizar rutas marítimas, reducir consumo de combustible y evitar congestiones portuarias. Esta innovación mejora la logística global y reduce el impacto ambiental.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+18",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "19",
-  "titulo": "IA y análisis deportivo",
-  "categoria": "Deportes",
-  "fecha": "2025-10-19",
-  "resumen": "Se usan datos y IA para mejorar el rendimiento de atletas y equipos.",
-  "contenido": "El deporte profesional incorpora IA para analizar el rendimiento de atletas, prevenir lesiones y diseñar estrategias. Los entrenadores cuentan con herramientas predictivas que transforman la preparación física.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+19",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "20",
-  "titulo": "IA en seguridad vial",
-  "categoria": "Seguridad",
-  "fecha": "2025-10-20",
-  "resumen": "Sistemas de IA ayudan a prevenir accidentes y mejorar la señalización.",
-  "contenido": "La IA se aplica en seguridad vial para detectar riesgos, controlar semáforos inteligentes y alertar sobre comportamientos peligrosos. Estas soluciones buscan reducir accidentes y salvar vidas.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+20",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "21",
-  "titulo": "IA y traducción automática",
-  "categoria": "Tecnología",
-  "fecha": "2025-10-21",
-  "resumen": "Nuevas IA ofrecen traducciones más precisas y naturales entre idiomas.",
-  "contenido": "Los sistemas de traducción automática han alcanzado nuevos niveles de precisión gracias a la IA. Las plataformas ahora interpretan contexto, tono y expresiones idiomáticas, facilitando la comunicación global.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+21",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "22",
-  "titulo": "IA analiza redes sociales",
-  "categoria": "Tecnología",
-  "fecha": "2025-10-22",
-  "resumen": "Herramientas de IA detectan tendencias y patrones de comportamiento en línea.",
-  "contenido": "Empresas y analistas utilizan IA para estudiar redes sociales, identificar tendencias emergentes y comprender el comportamiento digital. Esta información es clave para marketing, política y salud pública.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+22",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "23",
-  "titulo": "IA en la industria musical",
-  "categoria": "Entretenimiento",
-  "fecha": "2025-10-23",
-  "resumen": "Algoritmos generan melodías y ayudan a componer canciones innovadoras.",
-  "contenido": "La música se reinventa con IA que compone melodías, armoniza voces y sugiere arreglos. Artistas colaboran con algoritmos para explorar nuevos estilos y expandir la creatividad.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+23",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "24",
-  "titulo": "IA y cine: efectos visuales",
-  "categoria": "Cultura",
-  "fecha": "2025-10-24",
-  "resumen": "Se utiliza IA para mejorar y acelerar la creación de efectos especiales en películas.",
-  "contenido": "La industria cinematográfica adopta IA para generar efectos visuales más realistas y reducir tiempos de producción. Esta tecnología permite crear mundos digitales con mayor eficiencia.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+24",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "25",
-  "titulo": "IA en logística y entregas",
-  "categoria": "Industria",
-  "fecha": "2025-10-25",
-  "resumen": "Sistemas inteligentes optimizan rutas y tiempos de entrega.",
-  "contenido": "Empresas de logística implementan IA para planificar rutas, prever tráfico y ajustar entregas en tiempo real. Esto mejora la puntualidad y reduce costos operativos.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+25",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "26",
-  "titulo": "IA y reconocimiento facial",
-  "categoria": "Seguridad",
-  "fecha": "2025-10-26",
-  "resumen": "Nuevas tecnologías permiten identificar personas de forma rápida y segura.",
-  "contenido": "El reconocimiento facial impulsado por IA se utiliza en aeropuertos, eventos y sistemas de seguridad. Aunque plantea debates éticos, su precisión y velocidad son cada vez mayores.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+26",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "27",
-  "titulo": "IA y arte digital",
-  "categoria": "Cultura",
-  "fecha": "2025-10-27",
-  "resumen": "Artistas usan IA para crear obras únicas y experimentar con estilos nuevos.",
-  "contenido": "El arte digital vive una revolución con IA que genera imágenes, interpreta estilos y colabora en procesos creativos. Los artistas exploran nuevas formas de expresión híbrida.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+27",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "28",
-  "titulo": "IA en atención al cliente",
-  "categoria": "Negocios",
-  "fecha": "2025-10-28",
-  "resumen": "Chatbots avanzados mejoran la experiencia de los clientes y reducen tiempos de espera.",
-  "contenido": "Las empresas adoptan asistentes virtuales con IA que resuelven consultas, gestionan pedidos y ofrecen soporte personalizado. Esto mejora la satisfacción del cliente y optimiza recursos.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+28",
-  "fuente": "Fuente Ejemplo"
-},
-{
-  "id": "29",
-  "titulo": "IA en educación personalizada",
-  "categoria": "Educación",
-  "fecha": "2025-10-29",
-  "resumen": "Plataformas educativas adaptan contenido al nivel y ritmo de cada estudiante.",
-  "contenido": "La educación personalizada se potencia con IA que analiza el progreso de cada alumno y adapta los contenidos. Esto permite un aprendizaje más eficaz y motivador.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+28",
+      "titulo": "La IA revolucionará la atención médica en pocos años",
+      "categoria": "Salud",
+      "fecha": "2025-08-11",
+      "resumen": "Expertos anticipan una transformación radical en la medicina gracias a la IA.",
+      "contenido": "Según InfoSalus, la inteligencia artificial permitirá diagnósticos más rápidos, tratamientos personalizados y una gestión más eficiente de los recursos sanitarios. El cambio será profundo y acelerado.",
+      "imagen": "https://www.infosalus.com/salud-investigacion/noticia-medicina-basada-inteligencia-artificial-revolucionara-atencion-medica-pocos-anos-experto-ia-20250811072947.html",
+      "fuente": "InfoSalus"
+    },
+    {
+      "id": "15",
+      "titulo": "La inteligencia artificial humana y aumentada: el nuevo horizonte de la salud",
+      "categoria": "Salud",
+      "fecha": "2025-08-25",
+      "resumen": "La IA no solo automatiza, también amplifica las capacidades humanas.",
+      "contenido": "TN analiza cómo la inteligencia artificial aumentada está transformando la medicina. Desde prótesis inteligentes hasta asistentes quirúrgicos, la tecnología se convierte en una extensión del profesional de salud.",
+      "imagen": "https://tn.com.ar/salud/noticias/2025/08/25/la-inteligencia-artificial-humana-y-aumentada-el-nuevo-horizonte-de-la-salud/",
+      "fuente": "TN"
+    },
+    {
+      "id": "16",
+      "titulo": "La IA revoluciona el diagnóstico y tratamiento médico",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "Nuevas aplicaciones de IA mejoran la precisión clínica.",
+      "contenido": "La Universidad de Ciencias Aplicadas UMA ha publicado un informe sobre cómo la IA está transformando la medicina moderna. Desde el análisis de imágenes hasta la predicción de enfermedades, los avances son notables.",
+      "imagen": "https://uma.edu.pe/como-la-inteligencia-artificial-esta-revolucionando-la-ciencia-de-la-salud-aplicaciones-y-avances-en-diagnostico-y-tratamiento/",
+      "fuente": "UMA"
+    },
+    {
+      "id": "17",
+      "titulo": "Inteligencia artificial en medicina",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "La IA se consolida como herramienta clave en la práctica médica.",
+      "contenido": "El portal FindingTC destaca cómo la IA está siendo utilizada para apoyar decisiones clínicas, automatizar tareas administrativas y mejorar la experiencia del paciente en centros de salud.",
+      "imagen": "https://findingtc.com/inteligencia-artificial-en-medicina/",
+      "fuente": "FindingTC"
+    },
+    {
+      "id": "18",
+      "titulo": "La revolución de la inteligencia artificial en la medicina",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "La IA redefine el futuro de la atención sanitaria.",
+      "contenido": "Metaversos Agency explora cómo la inteligencia artificial está transformando la medicina desde la investigación hasta la atención primaria. El artículo destaca casos de éxito y desafíos éticos.",
+      "imagen": "https://metaversos.agency/blog/la-revolucion-de-la-inteligencia-artificial-en-la-medicina/",
+      "fuente": "Metaversos Agency"
+    },
+    {
+      "id": "19",
+      "titulo": "IA y salud: una alianza que crece",
+      "categoria": "Salud",
+      "fecha": "2025-10-15",
+      "resumen": "Oracle y otras empresas tecnológicas apuestan por soluciones médicas basadas en IA.",
+      "contenido": "La integración de IA en sistemas hospitalarios permite automatizar tareas, mejorar diagnósticos y reducir errores. Empresas como Oracle lideran esta transformación con herramientas de IA generativa.",
+      "imagen": "https://fastcompany.mx/2025/10/15/como-oracle-esta-revolucionando-la-medicina-con-ia/",
+      "fuente": "Fast Company MX"
+    },
+    {
+      "id": "20",
+      "titulo": "La IA y su impacto en la salud pública",
+      "categoria": "Salud",
+      "fecha": "2025-10-12",
+      "resumen": "El NIH promueve el uso responsable de la IA en salud.",
+      "contenido": "El Instituto Nacional de Salud de EE. UU. ha reforzado su compromiso con la investigación en IA aplicada a la salud pública. Se priorizan proyectos que mejoren la equidad y el acceso a servicios médicos.",
+      "imagen": "https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/la-inteligencia-artificial-y-su-salud",
+      "fuente": "NIH"
+    },
+    {
+    "id": "21",
+    "titulo": "IA y traducción automática: más allá de los idiomas",
+    "categoria": "Tecnología",
+    "fecha": "2025-10-21",
+    "resumen": "La IA redefine la traducción automática con mayor precisión y contexto.",
+    "contenido": "La inteligencia artificial está revolucionando la traducción automática, permitiendo resultados más precisos y naturales. Herramientas como DeepL y ChatGPT superan barreras lingüísticas y culturales, facilitando la comunicación global en tiempo real.",
+    "imagen": "https://blogs.uoc.edu/humanitats/wp-content/uploads/sites/25/2023/03/traduccion-ia.jpg",
+    "fuente": "UOC Humanitats"
   },
   {
-  "id": "30",
-  "titulo": "IA y smart cities",
-  "categoria": "Tecnología",
-  "fecha": "2025-10-30",
-  "resumen": "Ciudades inteligentes usan IA para gestionar tráfico, energía y servicios urbanos.",
-  "contenido": "Las ciudades inteligentes están adoptando inteligencia artificial para gestionar recursos urbanos de forma eficiente. Desde el control del tráfico hasta la distribución energética, los algoritmos permiten una administración más sostenible, segura y conectada.",
-  "imagen": "https://via.placeholder.com/400x200.png?text=Noticia+30",
-  "fuente": "Fuente Ejemplo"
-  }
- ] 
+    "id": "22",
+    "titulo": "IA analiza redes sociales para detectar tendencias",
+    "categoria": "Tecnología",
+    "fecha": "2025-10-22",
+    "resumen": "La IA permite entender el comportamiento digital y anticipar movimientos sociales.",
+    "contenido": "Empresas y analistas utilizan IA para estudiar redes sociales, identificar patrones de comportamiento y detectar tendencias emergentes. Esta tecnología mejora el marketing, la gestión de crisis y la toma de decisiones estratégicas.",
+    "imagen": "https://www.cyberclick.es/hubfs/Imported_Blog_Media/ia-redes-sociales.jpg",
+    "fuente": "Cyberclick"
+  },
+  {
+    "id": "23",
+    "titulo": "IA en la industria musical: creatividad algorítmica",
+    "categoria": "Entretenimiento",
+    "fecha": "2025-10-23",
+    "resumen": "La IA compone, produce y transforma la música moderna.",
+    "contenido": "La inteligencia artificial está redefiniendo la industria musical. Algoritmos como AIVA y Amper Music permiten componer melodías, producir pistas y colaborar con artistas humanos, abriendo nuevas fronteras creativas.",
+    "imagen": "https://xofosol.com/images/ia-musica.jpg",
+    "fuente": "XofoSol"
+  },
+  {
+    "id": "24",
+    "titulo": "IA y cine: efectos visuales que desafían la realidad",
+    "categoria": "Cultura",
+    "fecha": "2025-10-24",
+    "resumen": "La IA transforma la producción audiovisual con efectos hiperrealistas.",
+    "contenido": "La industria cinematográfica adopta IA para generar efectos visuales avanzados, rejuvenecer actores y crear mundos digitales. Esta tecnología redefine la narrativa y reduce los tiempos de producción.",
+    "imagen": "https://principia.io/storage/posts/October2023/ia-cine.jpg",
+    "fuente": "Principia"
+  },
+  {
+    "id": "25",
+    "titulo": "IA en logística: entregas más rápidas y eficientes",
+    "categoria": "Industria",
+    "fecha": "2025-10-25",
+    "resumen": "La IA optimiza rutas, reduce costos y mejora la experiencia del cliente.",
+    "contenido": "La inteligencia artificial está revolucionando la logística. Algoritmos predictivos y asistentes GPT permiten planificar rutas, anticipar la demanda y automatizar procesos, aumentando la eficiencia en toda la cadena de suministro.",
+    "imagen": "https://thelogisticsworld.com/wp-content/uploads/2023/07/ia-logistica.jpg",
+    "fuente": "The Logistics World"
+  },
+  {
+    "id": "26",
+    "titulo": "IA y reconocimiento facial: seguridad inteligente",
+    "categoria": "Seguridad",
+    "fecha": "2025-10-26",
+    "resumen": "La IA permite identificar rostros en tiempo real y prevenir delitos.",
+    "contenido": "El reconocimiento facial impulsado por IA mejora la vigilancia en espacios públicos y privados. Detecta patrones sospechosos, agiliza investigaciones y plantea nuevos desafíos éticos sobre privacidad y regulación.",
+    "imagen": "https://lanacionweb.com/wp-content/uploads/2023/09/reconocimiento-facial-ia.jpg",
+    "fuente": "La Nación Web"
+  },
+  {
+    "id": "27",
+    "titulo": "IA y arte digital: creatividad aumentada",
+    "categoria": "Cultura",
+    "fecha": "2025-10-27",
+    "resumen": "Artistas colaboran con algoritmos para crear obras únicas.",
+    "contenido": "La inteligencia artificial se convierte en aliada de los artistas digitales. Desde restauración de obras hasta generación de estilos, la IA amplía las posibilidades creativas y redefine el concepto de autoría.",
+    "imagen": "https://www.gndiario.com/sites/default/files/styles/large/public/2023-10/arte-digital-ia.jpg",
+    "fuente": "GNDiario"
+  },
+  {
+    "id": "28",
+    "titulo": "IA en atención al cliente: soporte 24/7 personalizado",
+    "categoria": "Negocios",
+    "fecha": "2025-10-28",
+    "resumen": "Chatbots inteligentes mejoran la experiencia del cliente y reducen costes.",
+    "contenido": "Las empresas adoptan asistentes virtuales con IA que responden consultas, gestionan pedidos y ofrecen soporte personalizado. Esta tecnología agiliza el servicio, mejora la satisfacción y optimiza recursos.",
+    "imagen": "https://www.ibm.com/blogs/systems/wp-content/uploads/2023/06/ia-atencion-cliente.jpg",
+    "fuente": "IBM"
+  },
+  {
+    "id": "29",
+    "titulo": "IA en educación personalizada: cada alumno a su ritmo",
+    "categoria": "Educación",
+    "fecha": "2025-10-29",
+    "resumen": "La IA adapta contenidos y metodologías al perfil de cada estudiante.",
+    "contenido": "La inteligencia artificial permite personalizar el aprendizaje, ajustando contenidos, evaluaciones y tutorías al ritmo y estilo de cada alumno. Esto mejora la motivación, el rendimiento y la inclusión educativa.",
+    "imagen": "https://www.educapeques.com/wp-content/uploads/2023/08/ia-educacion-personalizada.jpg",
+    "fuente": "Educapeques"
+  },
+  {
+    "id": "30",
+    "titulo": "IA y smart cities: ciudades que piensan por sí mismas",
+    "categoria": "Tecnología",
+    "fecha": "2025-10-30",
+    "resumen": "La IA gestiona tráfico, energía y servicios urbanos en tiempo real.",
+    "contenido": "Las ciudades inteligentes utilizan IA para optimizar recursos, mejorar la movilidad y ofrecer servicios personalizados. Sensores, big data y algoritmos permiten una gestión urbana más eficiente y sostenible.",
+    "imagen": "https://www.muyinteresante.es/uploads/s1/13/91/82/ciudades-inteligentes-ia.jpeg",
+    "fuente": "Muy Interesante"
+    }
+  ]
 }

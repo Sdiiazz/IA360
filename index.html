@@ -74,6 +74,15 @@
       font-size: 16px;
       color: #666;
     }
+    .card.anuncio-final {
+      grid-column: span 2;
+      background: #f9f9f9;
+      border: 2px dashed #ccc;
+      text-align: center;
+      padding: 40px 30px;
+      font-size: 18px;
+      color: #444;
+    }
   </style>
 </head>
 <body>
@@ -99,9 +108,9 @@
             const anuncio = document.createElement('div');
             anuncio.className = "card anuncio";
             anuncio.innerHTML = `
-              <!-- Espacio reservado para anuncio -->
+              <!-- Espacio reservado para anuncio intermedio -->
               <p>Publicidad</p>
-              <!-- Aquí puedes insertar tu bloque de Google AdSense cuando lo tengas -->
+              <!-- Aquí puedes insertar tu bloque de Google AdSense -->
             `;
             contenedor.appendChild(anuncio);
           }
@@ -120,6 +129,16 @@
           `;
           contenedor.appendChild(tarjeta);
         });
+
+        // Añadir anuncio final de doble ancho
+        const anuncioFinal = document.createElement('div');
+        anuncioFinal.className = "card anuncio-final";
+        anuncioFinal.innerHTML = `
+          <!-- Espacio reservado para anuncio final -->
+          <p>Publicidad destacada</p>
+          <!-- Aquí puedes insertar tu bloque de Google AdSense -->
+        `;
+        contenedor.appendChild(anuncioFinal);
       })
       .catch(error => {
         console.error('Error al cargar contenido:', error);

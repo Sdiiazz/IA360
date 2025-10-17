@@ -66,6 +66,14 @@
     .boton-leer-mas:hover {
       background-color: #005A9E;
     }
+    .card.anuncio {
+      background: #f9f9f9;
+      border: 2px dashed #ccc;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 16px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
@@ -85,7 +93,19 @@
           return;
         }
 
-        data.articulos.forEach(art => {
+        data.articulos.forEach((art, index) => {
+          // Insertar anuncio cada 6 artículos
+          if (index > 0 && index % 6 === 0) {
+            const anuncio = document.createElement('div');
+            anuncio.className = "card anuncio";
+            anuncio.innerHTML = `
+              <!-- Espacio reservado para anuncio -->
+              <p>Publicidad</p>
+              <!-- Aquí puedes insertar tu bloque de Google AdSense cuando lo tengas -->
+            `;
+            contenedor.appendChild(anuncio);
+          }
+
           const tarjeta = document.createElement('div');
           tarjeta.className = "card";
           tarjeta.innerHTML = `

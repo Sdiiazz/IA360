@@ -52,6 +52,20 @@
       font-size: 14px;
       color: #888;
     }
+    .boton-leer-mas {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 16px;
+      background-color: #0078D4;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .boton-leer-mas:hover {
+      background-color: #005A9E;
+    }
   </style>
 </head>
 <body>
@@ -81,6 +95,7 @@
               <p class="meta">${art.categoria || ''} | ${art.fecha || ''}</p>
               <p>${art.resumen || art.contenido || ''}</p>
               <p><em>${art.fuente || ''}</em></p>
+              ${art.url ? `<a href="${art.url}" target="_blank" rel="noopener noreferrer" class="boton-leer-mas">Leer más</a>` : ''}
             </div>
           `;
           contenedor.appendChild(tarjeta);
@@ -93,3 +108,4 @@
   </script>
 </body>
 </html>
+

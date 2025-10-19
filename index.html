@@ -1,47 +1,197 @@
-data.articulos.forEach((art, index) => {
-  if (index > 0 && index % 6 === 0) {
-    const anuncio = document.createElement('div');
-    anuncio.className = "card anuncio";
-    anuncio.innerHTML = `
-      <ins class="adsbygoogle"
-           style="display:block; text-align:center;"
-           data-ad-layout="in-article"
-           data-ad-format="fluid"
-           data-ad-client="ca-pub-1692110841224974"
-           data-ad-slot="7128360212"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    `;
-    contenedor.appendChild(anuncio);
-  }
-
-  const tarjeta = document.createElement('div');
-  tarjeta.className = "card";
-  tarjeta.innerHTML = `
-    <img src="${art.imagen || 'https://via.placeholder.com/400x200.png?text=Sin+imagen'}" alt="${art.titulo}">
-    <div class="card-content">
-      <h2>${art.titulo || 'Sin título'}</h2>
-      <p class="meta">${art.categoria || ''} | ${art.fecha || ''}</p>
-      <p>${art.resumen || art.contenido || ''}</p>
-      <p><em>${art.fuente || ''}</em></p>
-      ${art.url ? `<a href="${art.url}" target="_blank" rel="noopener noreferrer" class="boton-leer-mas">Leer más</a>` : ''}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>noticIA3060 - Inteligencia Artificial al Día</title>
+  <meta name="google-adsense-account" content="ca-pub-1692110841224974">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692110841224974" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="https://sdiiazz.github.io/noticIA3060/assets/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 40px;
+    }
+    .cabecera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+    .cabecera img {
+      height: 120px;
+    }
+    .cabecera-texto {
+      flex-grow: 1;
+      text-align: center;
+    }
+    .cabecera-texto h1 {
+      font-size: 40px;
+      margin: 0;
+      color: #000;
+    }
+    .cabecera-texto p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #222;
+    }
+    .card-content p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .card-content .meta {
+      font-size: 14px;
+      color: #888;
+    }
+    .boton-leer-mas {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 16px;
+      background-color: #0078D4;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .boton-leer-mas:hover {
+      background-color: #005A9E;
+    }
+    .card.anuncio {
+      background: #f9f9f9;
+      border: 2px dashed #ccc;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 16px;
+      color: #666;
+    }
+    .card.anuncio-final {
+      grid-column: span 2;
+      background: #f9f9f9;
+      border: 2px dashed #ccc;
+      text-align: center;
+      padding: 40px 30px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="cabecera">
+    <img src="https://sdiiazz.github.io/noticIA3060/assets/logo3060.png" alt="Logo noticIA3060">
+    <div class="cabecera-texto">
+      <h1>
+        <span style="color:#000000;">notic</span><span style="color:#00BFFF;">IA</span><span style="color:#000000;">3060</span>
+      </h1>
+      <p>🧠 Últimos artículos sobre Inteligencia Artificial 🤖</p>
     </div>
-  `;
-  contenedor.appendChild(tarjeta);
-});
+  </div>
 
-const anuncioFinal = document.createElement('div');
-anuncioFinal.className = "card anuncio-final";
-anuncioFinal.innerHTML = `
-  <ins class="adsbygoogle"
-       style="display:block; text-align:center;"
-       data-ad-layout="in-article"
-       data-ad-format="fluid"
-       data-ad-client="ca-pub-1692110841224974"
-       data-ad-slot="7128360212"></ins>
+  <div class="grid" id="contenedor-articulos"></div>
+
   <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
+    fetch('data/contenido.json')
+      .then(res => {
+        if (!res.ok) throw new Error('No se pudo cargar el JSON');
+        return res.json();
+      })
+      .then(data => {
+        const contenedor = document.getElementById('contenedor-articulos');
+        if (!data.articulos || data.articulos.length === 0) {
+          contenedor.innerHTML = "<p>No se encontró contenido actualizado.</p>";
+          return;
+        }
+
+        data.articulos.forEach((art, index) => {
+          if (index > 0 && index % 6 === 0) {
+            const anuncio = document.createElement('div');
+            anuncio.className = "card anuncio";
+
+            const ins = document.createElement('ins');
+            ins.className = "adsbygoogle";
+            ins.style.display = "block";
+            ins.style.textAlign = "center";
+            ins.setAttribute("data-ad-layout", "in-article");
+            ins.setAttribute("data-ad-format", "fluid");
+            ins.setAttribute("data-ad-client", "ca-pub-1692110841224974");
+            ins.setAttribute("data-ad-slot", "7128360212");
+
+            const script = document.createElement('script');
+            script.innerHTML = "(adsbygoogle = window.adsbygoogle || []).push({});";
+
+            anuncio.appendChild(ins);
+            anuncio.appendChild(script);
+            contenedor.appendChild(anuncio);
+          }
+
+          const tarjeta = document.createElement('div');
+          tarjeta.className = "card";
+          tarjeta.innerHTML = `
+            <img src="${art.imagen || 'https://via.placeholder.com/400x200.png?text=Sin+imagen'}" alt="${art.titulo}">
+            <div class="card-content">
+              <h2>${art.titulo || 'Sin título'}</h2>
+              <p class="meta">${art.categoria || ''} | ${art.fecha || ''}</p>
+              <p>${art.resumen || art.contenido || ''}</p>
+              <p><em>${art.fuente || ''}</em></p>
+              ${art.url ? `<a href="${art.url}" target="_blank" rel="noopener noreferrer" class="boton-leer-mas">Leer más</a>` : ''}
+            </div>
+          `;
+          contenedor.appendChild(tarjeta);
+        });
+
+        const anuncioFinal = document.createElement('div');
+        anuncioFinal.className = "card anuncio-final";
+
+        const insFinal = document.createElement('ins');
+        insFinal.className = "adsbygoogle";
+        insFinal.style.display = "block";
+        insFinal.style.textAlign = "center";
+        insFinal.setAttribute("data-ad-layout", "in-article");
+        insFinal.setAttribute("data-ad-format", "fluid");
+        insFinal.setAttribute("data-ad-client", "ca-pub-1692110841224974");
+        insFinal.setAttribute("data-ad-slot", "7128360212");
+
+        const scriptFinal = document.createElement('script');
+        scriptFinal.innerHTML = "(adsbygoogle = window.adsbygoogle || []).push({});";
+
+        anuncioFinal.appendChild(insFinal);
+        anuncioFinal.appendChild(scriptFinal);
+        contenedor.appendChild(anuncioFinal);
+      })
+      .catch(error => {
+        console.error('Error al cargar contenido:', error);
+        document.getElementById('contenedor-articulos').innerHTML = "<p>Error al cargar contenido.</p>";
+      });
   </script>
-`;
-contenedor.appendChild(anuncioFinal);
+</body>
+</html>

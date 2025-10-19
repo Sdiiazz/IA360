@@ -118,7 +118,7 @@
   <div class="grid" id="contenedor-articulos"></div>
 
   <script>
-    fetch('https://sdiiazz.github.io/noticIA3060/data/contenido.json')
+    fetch('data/contenido.json')
       .then(res => {
         if (!res.ok) throw new Error('No se pudo cargar el JSON');
         return res.json();
@@ -165,4 +165,3 @@
   </script>
 </body>
 </html>
-

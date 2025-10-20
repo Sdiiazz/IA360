@@ -69,6 +69,14 @@
       margin: 5px 0;
       color: #555;
     }
+    .card-content p:not(.meta) {
+      max-height: 80px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+    }
     .card-content .meta {
       font-size: 14px;
       color: #888;
